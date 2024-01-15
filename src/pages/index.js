@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Head from "next/head";
 import Hero from "@/components/hero";
 import About from "@/components/about";
+import Partners from "@/components/partners";
 
 export default function Home() {
   useEffect(() => {
@@ -19,6 +20,8 @@ export default function Home() {
 
       <Hero/>
       <About/>
+      <Partners/>
+      
     </>
   );
 }

@@ -1,0 +1,39 @@
+.partners > div{
+    max-width: 1200px;
+    margin: 300px auto;
+    text-align: center;
+}
+
+.partners > div > h2{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.partners > div > p{
+    font-size: 20px;
+    max-width: 500px;
+    margin: auto auto 50px auto;
+}
+
+.partners > div > ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    list-style: none;
+}
+
+.partners > div > ul > li{
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: auto;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners > div > ul > li:hover{
+    transform: scale(1.03);
+    transition: 0.3s ease;
+    cursor: pointer;
+}

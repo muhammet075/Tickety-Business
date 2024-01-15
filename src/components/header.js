@@ -16,8 +16,8 @@ function Header() {
 
                 <nav>
                     <ul>
-                        <li><Link href="/">Link 1</Link></li>
-                        <li><Link href="/">Link 2</Link></li>
+                        <li><Link href="/">About</Link></li>
+                        <li><Link href="/">Partners</Link></li>
                         <li><Link href="/">Link 3</Link></li>
                         <li><Link href="/">Link 4</Link></li>
                     </ul>
