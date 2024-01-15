@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import Head from "next/head";
+import Hero from "@/components/hero";
+import About from "@/components/about";
 
 export default function Home() {
   useEffect(() => {
@@ -15,8 +17,8 @@ export default function Home() {
           <meta property="og:title" content="Tickety"/>
       </Head>
 
-      <div>
-      </div>
+      <Hero/>
+      <About/>
     </>
   );
 }

@@ -1,0 +1,40 @@
+.header{
+    background-color: var(--background2);
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.header > div{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.header > div > a > img{
+    height: 75px;
+    width: auto;
+}
+
+.header > div > nav > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 25px;
+}
+
+.header > div > nav > ul li a{
+    font-weight: 300;
+}
+
+.header > div > nav > ul li a:hover{
+    color: #189ebf;
+    transition: 0.2s ease;
+}
+    

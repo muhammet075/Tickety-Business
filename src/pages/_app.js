@@ -12,6 +12,8 @@ export default function App({ Component, pageProps }) {
         <meta property="og:image" content="/logo.png" />
         <meta name="keywords" content="Halal Delight, Halal snoepjes, Halal candies, Halal sweets"/>
         <link rel="icon" type="image/x-icon" href="/favico.png"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       </Head>
       <Header/>
       <main>

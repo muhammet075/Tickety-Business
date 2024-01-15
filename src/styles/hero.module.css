@@ -1,0 +1,57 @@
+.hero > div:nth-of-type(1){
+    background: #189ebf;
+    height: 650px;
+    position: relative;
+}
+
+.hero > div:nth-of-type(1) > section{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    max-width: 1200px;
+    left: 0;
+    right: 0;
+    top: 50px;
+    color: #ffff;
+}
+
+.hero > div:nth-of-type(1) > section h1{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    margin-bottom: 25px;
+}
+
+.hero > div:nth-of-type(1) > section p{
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.hero > div:nth-of-type(1) > section a img{
+    margin: 25px auto;
+    width: 175px;
+    height: auto;
+}
+
+.hero > div:nth-of-type(1) > section a:hover img{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.hero > div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: -275px;
+}
+
+.hero > div:nth-of-type(2) img{
+    width: 200px;
+    height: auto;
+}
+
+.hero > div:nth-of-type(2) img:nth-of-type(2){
+    width: 225px;
+}
