@@ -12,8 +12,9 @@ export default function Home() {
     <>
       <Head>
           <title>Tickety</title>
-          <meta name="description" content="Tickety.com"/>
-          <meta name="og:description" content="Tickety.com"/>
+          <meta name="description" content="The official website of the Tickety App"/>
+          <meta name="og:description" content="The official website of the Tickety App"/>
+          <meta name="keywords" content="Tickety, tickets, Tickety App"/>
           <meta property="og:url" content="https://www.tickety.com/"/>
           <meta property="og:title" content="Tickety"/>
       </Head>
