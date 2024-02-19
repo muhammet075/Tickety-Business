@@ -55,3 +55,66 @@
 .hero > div:nth-of-type(2) img:nth-of-type(2){
     width: 225px;
 }
+
+@media only screen and (max-width: 1215px) {
+    .hero > div:nth-of-type(1){
+        padding: 5px 15px;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .hero > div:nth-of-type(1){
+        height: 600px;
+    }
+
+    .hero > div:nth-of-type(1) > section h1{
+        font-size: 35px;
+    }
+
+    .hero > div:nth-of-type(1) > section p{
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .hero > div:nth-of-type(2){
+        gap: 0;
+        justify-content: space-evenly;
+        margin-top: -225px;
+    }
+
+    .hero > div:nth-of-type(2) img{
+        width: 150px;
+    }
+
+    .hero > div:nth-of-type(2) img:nth-of-type(2){
+        width: 185px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .hero > div:nth-of-type(1){
+        height: 500px;
+    }
+
+    .hero > div:nth-of-type(2){
+        margin-top: -150px;
+    }
+
+    .hero > div:nth-of-type(2) img{
+        width: 125px;
+    }
+    
+    .hero > div:nth-of-type(2) img:nth-of-type(2){
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .hero > div:nth-of-type(2) img{
+        width: 110px;
+    }
+    
+    .hero > div:nth-of-type(2) img:nth-of-type(2){
+        width: 140px;
+    }
+}

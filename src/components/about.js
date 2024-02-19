@@ -12,14 +12,14 @@ function About() {
     }, []);
 
     return(      
-        <div className={styles.about}>  
+        <div className={styles.about} id="about">  
             <div>
                 <h2>About us</h2>
 
                 <div>
                     <div>
                         <section>
-                            <Image src={Mockup2} alt="prototype" data-aos="fade-up"/>
+                            <Image src={Mockup2} alt="prototype"/>
                         </section>
                         <section>
                             <h3>Heading 3</h3>

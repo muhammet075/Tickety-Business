@@ -75,7 +75,7 @@
 }
 
 .footer > div section:nth-of-type(2) > div > div h3{
-    color: #919299;
+    color: #000;
     font-weight: 600;
     font-size: 22px;
     margin-bottom: 20px;
@@ -159,7 +159,7 @@
     }
 
     .footer > div section:nth-of-type(2) > div > div:first-child{
-        margin: 0 auto;
+        margin: 0;
     }
 
     .footer > div section:nth-of-type(2) > div > div h3{
@@ -170,10 +170,10 @@
         margin-top: 25px;
     }
 
-
     .footer > div section:nth-of-type(3){
         flex-direction: column-reverse;
         align-items: flex-start;
+        gap: 35px;
     }
 
     .footer > div section:nth-of-type(3) div{
@@ -187,8 +187,11 @@
     }
 }
 
+@media only screen and (max-width: 685px) {
+    .footer{
+        margin: 200px auto 35px auto;
+    }
 
-@media only screen and (max-width: 680px) {
     .footer > div section:nth-of-type(1) h2{
         max-width: 100%;
     }

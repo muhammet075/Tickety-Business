@@ -9,6 +9,12 @@
     margin-bottom: 50px;
 }
 
+.about > div > div{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;    
+}
+
 .about > div > div > div{
     display: flex;
     align-items: center;
@@ -50,8 +56,57 @@
     transition: 0.2s ease;
 }
 
-
 .about > div > div > div > section > img{
     width: 300px;
     height: auto;
+}
+
+@media only screen and (max-width: 1215px) {
+    .about > div{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 785px) {
+    .about > div > div > div > section > img{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .about > div h2{
+        font-size: 33px;
+    }
+
+    .about > div > div > div > section > h3{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+    
+    .about > div > div > div > section > p{
+        font-size: 18px;
+    }
+
+    .about > div > div > div > section > a{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 585px) {
+    .about > div{
+        padding: 0 15px;
+    }
+    
+    .about > div > div{
+        gap: 150px;
+    }
+
+    .about > div > div > div, .about > div > div > div:nth-of-type(even){
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .about > div > div > div > section{
+        width: 100%;
+    }
 }

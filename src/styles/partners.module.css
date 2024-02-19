@@ -37,3 +37,30 @@
     transition: 0.3s ease;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1215px) {
+    .partners > div{
+        padding: 0 15px;
+    }
+}
+
+
+@media only screen and (max-width: 685px) {
+    .partners > div{
+        margin: 0 auto;
+    }
+    
+    .partners > div > h2{
+        font-size: 33px;
+    }
+
+    .partners > div > p{
+        width: 90%;
+        font-size: 18px;
+        margin: auto auto 25px auto;
+    }
+
+    .partners > div > ul{
+        grid-template-columns: auto auto;
+    }
+}

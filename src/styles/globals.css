@@ -47,3 +47,31 @@ button{
 .displaynone{
   display: none !important;
 }
+
+.openhamburger {
+  animation: openhamburger .5s forwards
+}
+
+.closehamburger {
+  animation: closehamburger .5s forwards
+}
+
+@keyframes openhamburger {
+  0% {
+      left: -2000px
+  }
+
+  to {
+      left: 0px;
+  }
+}
+
+@keyframes closehamburger {
+  0% {
+      left: 0px;
+  }
+
+  to {
+      left: -2000px
+  }
+}
