@@ -2,11 +2,11 @@ import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/hero.module.css";
-import Mockup1 from "@/assets/mockups/mockup1.png";
-import Mockup2 from "@/assets/mockups/mockup2.png";
-import Mockup3 from "@/assets/mockups/mockup3.png";
-import Mockup4 from "@/assets/mockups/mockup4.png";
-import Mockup5 from "@/assets/mockups/mockup5.png";
+import Mockup1 from "@/assets/mockups/mockup1-min.png";
+import Mockup2 from "@/assets/mockups/mockup2-min.png";
+import Mockup3 from "@/assets/mockups/mockup3-min.png";
+import Mockup4 from "@/assets/mockups/mockup4-min.png";
+import Mockup5 from "@/assets/mockups/mockup5-min.png";
 import appStoreButton from "@/assets/icons/appstorebutton.svg";
 
 function Hero() {
