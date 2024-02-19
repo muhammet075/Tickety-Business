@@ -5,6 +5,8 @@ import styles from "../styles/hero.module.css";
 import Mockup1 from "@/assets/mockups/mockup1.png";
 import Mockup2 from "@/assets/mockups/mockup2.png";
 import Mockup3 from "@/assets/mockups/mockup3.png";
+import Mockup4 from "@/assets/mockups/mockup4.png";
+import Mockup5 from "@/assets/mockups/mockup5.png";
 import appStoreButton from "@/assets/icons/appstorebutton.svg";
 
 function Hero() {
@@ -23,9 +25,9 @@ function Hero() {
                 </section>
             </div>
             <div>
-                <Image src={Mockup2} alt="" data-aos="fade-up" data-aos-delay="200"/>
-                <Image src={Mockup1} alt="" data-aos="fade-up" />
-                <Image src={Mockup3} alt="" data-aos="fade-up" data-aos-delay="200"/>
+                <Image src={Mockup5} alt="Mockup of the AI Chatbot on the Tickety app" data-aos="fade-up" data-aos-delay="200"/>
+                <Image src={Mockup1} alt="Mockup of the login/register page on the Tickety app" data-aos="fade-up" />
+                <Image src={Mockup4} alt="Mockup of the AI Chatbot on the Tickety app" data-aos="fade-up" data-aos-delay="200"/>
             </div>
         </div>
     )
