@@ -8,6 +8,7 @@ import Mockup3 from "@/assets/mockups/mockup3-min.png";
 import Mockup4 from "@/assets/mockups/mockup4-min.png";
 import Mockup5 from "@/assets/mockups/mockup5-min.png";
 import appStoreButton from "@/assets/icons/appstorebutton.svg";
+import ParticlesContainer from "@/components/particlescontainer.js";
 
 function Hero() {
 
@@ -16,12 +17,16 @@ function Hero() {
     }, []);
 
     return(      
-        <div className={styles.hero}>  
+        <div className={styles.hero}> 
             <div>
+            <ParticlesContainer/> 
                 <section>
-                    <h1>Tickety, the app for<br/> all your tickets.</h1>
+                    <h1>Launching soon:<br/> new Tickety App</h1>
                     <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
-                    <Link href="#" target="_blank"><Image src={appStoreButton} alt="Download on the App Store Button"/></Link>
+                    <section>
+                        <Link href="/tickety-app"><Image src={appStoreButton} alt="Download on the App Store Button"/></Link>
+                        <Link href="/order-tickets">Order Tickets Now</Link>
+                    </section>
                 </section>
             </div>
             <div>

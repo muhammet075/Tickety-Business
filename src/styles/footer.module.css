@@ -189,7 +189,7 @@
 
 @media only screen and (max-width: 685px) {
     .footer{
-        margin: 200px auto 35px auto;
+        margin: 100px auto 35px auto;
     }
 
     .footer > div section:nth-of-type(1) h2{

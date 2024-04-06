@@ -15,7 +15,7 @@ function Footer() {
         <section>
             <h2>Download the <span>Tickety</span> app now!</h2>
             <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
-            <Link href="#" target="_blank"><Image src={appStoreButton} alt="Download on the App Store Button" data-aos="fade-up"/></Link>
+            <Link href="/tickety-app"><Image src={appStoreButton} alt="Download on the App Store Button" data-aos="fade-up"/></Link>
         </section>
         
         <section>
@@ -33,35 +33,36 @@ function Footer() {
                 <div>
                     <h3>Our Company</h3>
                     <ul>
-                        <li><Link href="/">About</Link></li>
-                        <li><Link href="/">Partners</Link></li>
-                        <li><Link href="/">Blog</Link></li>
-                        <li><Link href="/">Privacy Policy</Link></li>
-                        <li><Link href="/">Cookie Policy</Link></li>
-                        <li><Link href="/">Terms</Link></li>
+                        <li><Link href="/order-tickets">Order Tickets</Link></li>
+                        <li><Link href="/tickety-app">Tickety App</Link></li>
+                        <li><Link href="/#partners">Partners</Link></li>
+                        <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+                        <li><Link href="/cookie-policy">Cookie Policy</Link></li>
+                        <li><Link href="/terms">Terms</Link></li>
                     </ul>
                 </div>
 
                 <div>
                     <h3>Browser By</h3>
                     <ul>
-                        <li><Link href="/">All Events</Link></li>
-                        <li><Link href="/">NBA</Link></li>
-                        <li><Link href="/">NBA</Link></li>
-                        <li><Link href="/">NBA</Link></li>
-                        <li><Link href="/">NBA</Link></li>
-                        <li><Link href="/">NBA</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
                     </ul>
                 </div>
 
                 <div>
                     <h3>Helpful Links</h3>
                     <ul>
-                        <li><Link href="/">Help/FAQ</Link></li>
-                        <li><Link href="/">App Store</Link></li>
-                        <li><Link href="/">Contact Us</Link></li>
-                        <li><Link href="/">Gift Cards</Link></li>
-                        <li><Link href="/">Careers</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
+                        <li><Link href="/">Comming soon</Link></li>
                     </ul>
                 </div>
             </div>
@@ -70,10 +71,10 @@ function Footer() {
         <section>
             <p>© 2023 Tickety. All rights reserved.</p>
             <div>
-                <Link href="/">Privacy</Link>
-                <Link href="/">Cookie</Link>
-                <Link href="/">Terms</Link>
-                <Link href="/">Site map</Link>
+                <Link href="/privacy-policy">Privacy Policy</Link>
+                <Link href="/cookie-policy">Cookie Policy</Link>
+                <Link href="/terms">Terms</Link>
+                <Link target="_blank" href="/sitemap.xml">Site map</Link>
             </div>
         </section>
       </div>

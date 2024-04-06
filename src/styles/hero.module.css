@@ -13,6 +13,7 @@
     right: 0;
     top: 50px;
     color: #ffff;
+    z-index: 99999;
 }
 
 .hero > div:nth-of-type(1) > section h1{
@@ -28,15 +29,36 @@
     margin: auto;
 }
 
-.hero > div:nth-of-type(1) > section a img{
+.hero > div:nth-of-type(1) > section > section{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.hero > div:nth-of-type(1) > section > section a img{
     margin: 25px auto;
     width: 175px;
     height: auto;
 }
 
-.hero > div:nth-of-type(1) > section a:hover img{
-    transform: scale(1.05);
-    transition: 0.3s ease;
+.hero > div:nth-of-type(1) > section > section a:last-child{
+    background-color: #036A6E;
+    padding: 0 15px;
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.hero > div:nth-of-type(1) > section > section a:last-child:hover{
+    background-color: #1c8f94;
+    transition: 0.2s ease;
 }
 
 .hero > div:nth-of-type(2){
@@ -45,6 +67,10 @@
     justify-content: center;
     gap: 25px;
     margin-top: -275px;
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .hero > div:nth-of-type(2) img{

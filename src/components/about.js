@@ -26,7 +26,7 @@ function About() {
                         <section>
                             <h3>Talk with K.A.I</h3>
                             <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier. With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
-                            <Link href="">Learn More</Link>
+                            <Link href="/tickety-app">Learn More</Link>
                         </section>
                     </div>
                     <div>
@@ -36,7 +36,7 @@ function About() {
                         <section>
                             <h3>Ticket results with AI</h3>
                             <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier. With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
-                            <Link href="">Learn More</Link>
+                            <Link href="/tickety-app">Learn More</Link>
                         </section>
                     </div>
                     <div>
@@ -46,7 +46,7 @@ function About() {
                         <section>
                             <h3>Add tickets to your wallet</h3>
                             <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier. With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
-                            <Link href="">Learn More</Link>
+                            <Link href="/tickety-app">Learn More</Link>
                         </section>
                     </div>
                     <div>
@@ -56,7 +56,7 @@ function About() {
                         <section>
                             <h3>Register and login with Apple ID</h3>
                             <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier. With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
-                            <Link href="">Learn More</Link>
+                            <Link href="/tickety-app">Learn More</Link>
                         </section>
                     </div>
                     <div>
@@ -66,7 +66,7 @@ function About() {
                         <section>
                             <h3>Select seats and pay secure</h3>
                             <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier. With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
-                            <Link href="">Learn More</Link>
+                            <Link href="/tickety-app">Learn More</Link>
                         </section>
                     </div>
                 </div>

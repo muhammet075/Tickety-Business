@@ -24,6 +24,7 @@
 
 .partners > div > ul > li{
     background-color: #f0f0f0;
+    border: 1px solid #e2e2e2;
     border-radius: 5px;
     width: auto;
     height: 75px;
@@ -37,6 +38,22 @@
     transition: 0.3s ease;
     cursor: pointer;
 }
+
+.partners > div > ul > li > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.partners > div > ul > li > a > img{
+    height: 75%;
+    width: auto;
+    margin: auto;
+}
+
+
 
 @media only screen and (max-width: 1215px) {
     .partners > div{

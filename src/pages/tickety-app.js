@@ -4,7 +4,7 @@ import Hero from "@/components/hero";
 import About from "@/components/about";
 import Partners from "@/components/partners";
 
-export default function Test() {
+export default function orderTickets() {
 
 
   useEffect(() => {
@@ -14,6 +14,7 @@ export default function Test() {
 
   return (
     <>
+      <h1>About the new Tickety App</h1>
  
       
     </>

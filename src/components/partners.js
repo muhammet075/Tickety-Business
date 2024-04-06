@@ -18,14 +18,14 @@ function Partners() {
                 <p>Explore Tickerty's partners below. These companies contribute to our collaborative network, enhancing the services we provide.</p>
 
                 <ul>
+                    <li><Link target="_blank" href="https://altinweb.nl/"><img src="https://altinweb.nl/_next/static/media/altinweb-logo.dda733f0.svg" alt="Logo of Altinweb"/></Link></li>
+                    {/* <li><Link href="">Partner</Link></li>
                     <li><Link href="">Partner</Link></li>
                     <li><Link href="">Partner</Link></li>
                     <li><Link href="">Partner</Link></li>
                     <li><Link href="">Partner</Link></li>
                     <li><Link href="">Partner</Link></li>
-                    <li><Link href="">Partner</Link></li>
-                    <li><Link href="">Partner</Link></li>
-                    <li><Link href="">Partner</Link></li>
+                    <li><Link href="">Partner</Link></li> */}
                 </ul>
 
             </div>
