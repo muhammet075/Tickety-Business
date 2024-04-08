@@ -29,6 +29,7 @@ function Header() {
                     <ul>
                         <li><Link href="/order-tickets" onClick={closehamburger}>Order Tickets</Link></li>
                         <li><Link href="/tickety-app" onClick={closehamburger}>Tickety App</Link></li>
+                        <li><Link href="/#about" onClick={closehamburger}>About</Link></li>
                         <li><Link href="/#partners" onClick={closehamburger}>Partners</Link></li>
                         <li><button onClick={closehamburger}><Image src={closeIco} alt="Close icon"/></button></li>
                     </ul>

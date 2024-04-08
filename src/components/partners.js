@@ -14,7 +14,7 @@ function Partners() {
     return(      
         <div className={styles.partners} id="partners">  
             <div>
-                <h2 data-aos="fade-down">Partners</h2>
+                <h2>Partners</h2>
                 <p>Explore Tickerty's partners below. These companies contribute to our collaborative network, enhancing the services we provide.</p>
 
                 <ul>

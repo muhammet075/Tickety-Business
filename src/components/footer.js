@@ -35,10 +35,8 @@ function Footer() {
                     <ul>
                         <li><Link href="/order-tickets">Order Tickets</Link></li>
                         <li><Link href="/tickety-app">Tickety App</Link></li>
+                        <li><Link href="/#about">About</Link></li>
                         <li><Link href="/#partners">Partners</Link></li>
-                        <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-                        <li><Link href="/cookie-policy">Cookie Policy</Link></li>
-                        <li><Link href="/terms">Terms</Link></li>
                     </ul>
                 </div>
 
@@ -49,16 +47,12 @@ function Footer() {
                         <li><Link href="/">Comming soon</Link></li>
                         <li><Link href="/">Comming soon</Link></li>
                         <li><Link href="/">Comming soon</Link></li>
-                        <li><Link href="/">Comming soon</Link></li>
-                        <li><Link href="/">Comming soon</Link></li>
                     </ul>
                 </div>
 
                 <div>
                     <h3>Helpful Links</h3>
                     <ul>
-                        <li><Link href="/">Comming soon</Link></li>
-                        <li><Link href="/">Comming soon</Link></li>
                         <li><Link href="/">Comming soon</Link></li>
                         <li><Link href="/">Comming soon</Link></li>
                         <li><Link href="/">Comming soon</Link></li>

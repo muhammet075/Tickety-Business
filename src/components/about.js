@@ -16,16 +16,17 @@ function About() {
     return(      
         <div className={styles.about} id="about">  
             <div>
-                <h2 data-aos="fade-down">About us</h2>
+                <h2>About us</h2>
+                <p>Tickety was founded by a group of friends who were passionate about live events and frustrated with the ticket buying process. They saw an opportunity to create a better experience for customers, and Tickety was born. Today, we're proud to be a leading ticket provider, helping people across the country enjoy the events they love.</p>
 
                 <div>
                     <div>
                         <section>
-                            <Image src={Mockup4} alt="prototype"/>
+                            <Image src={Mockup4} alt="prototype" data-aos="fade-up"/>
                         </section>
                         <section>
                             <h3>Talk with K.A.I</h3>
-                            <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier. With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
+                            <p>Say hi to K.A.I., your ticketing guru! This AI buddy makes snagging tickets a breeze, with style.</p>
                             <Link href="/tickety-app">Learn More</Link>
                         </section>
                     </div>
@@ -35,7 +36,7 @@ function About() {
                         </section>
                         <section>
                             <h3>Ticket results with AI</h3>
-                            <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier. With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
+                            <p>K.A.I. swiftly delivers ticketing results tailored just for you, making the process seamless and hassle-free.</p>
                             <Link href="/tickety-app">Learn More</Link>
                         </section>
                     </div>
@@ -45,7 +46,7 @@ function About() {
                         </section>
                         <section>
                             <h3>Add tickets to your wallet</h3>
-                            <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier. With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
+                            <p>Effortlessly add purchased tickets to your Wallet with K.A.I., ensuring smooth access to your events.</p>
                             <Link href="/tickety-app">Learn More</Link>
                         </section>
                     </div>
@@ -55,7 +56,7 @@ function About() {
                         </section>
                         <section>
                             <h3>Register and login with Apple ID</h3>
-                            <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier. With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
+                            <p>Enjoy top-notch security with FaceID integration, ensuring safe access to your app using your AppleID.</p>
                             <Link href="/tickety-app">Learn More</Link>
                         </section>
                     </div>
@@ -65,7 +66,7 @@ function About() {
                         </section>
                         <section>
                             <h3>Select seats and pay secure</h3>
-                            <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier. With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
+                            <p>Handpick your seats and breeze through secure payments with the futuristic combo of FaceID and Wallet magic!</p>
                             <Link href="/tickety-app">Learn More</Link>
                         </section>
                     </div>

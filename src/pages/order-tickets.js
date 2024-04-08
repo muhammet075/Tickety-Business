@@ -229,6 +229,13 @@ export default function OrderTickets() {
 
   return (
     <>
+        <Head>
+        <title>Tickety | Order Tickets</title>
+        <meta name="description" content="Order Tickets by simply filling out the form available on the website.."/>
+        <meta name="og:description" content="Order Tickets by simply filling out the form available on the website."/>
+        <meta property="og:url" content="https://www.tickety.com/order-tickets/"/>
+        <meta property="og:title" content="Tickety | Order Tickets"/>
+      </Head>
       <div className="pageheader">
         <div>
           <h1>Order Tickets</h1>
