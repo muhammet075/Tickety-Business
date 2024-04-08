@@ -16,8 +16,10 @@
 }
 
 .partners > div > ul{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+    display: flex;
+    justify-content: center;
     gap: 10px;
     list-style: none;
 }
@@ -28,6 +30,7 @@
     border-radius: 5px;
     width: auto;
     height: 75px;
+    width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +81,6 @@
     }
 
     .partners > div > ul{
-        grid-template-columns: auto auto;
+        /* grid-template-columns: auto auto; */
     }
 }

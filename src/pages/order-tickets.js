@@ -207,8 +207,6 @@ export default function OrderTickets() {
 
     console.log("sending email", formData)
 
-    alert("sedning")
-
     emailjs.send("service_fwb77fb","template_vmwpreg", formData, "JrLFpTLCcwJhfeGcZ");
 
     document.querySelector(".orderform").classList.add("displaynone");
@@ -374,7 +372,8 @@ export default function OrderTickets() {
             </section>
 
             <section>
-              <input placeholder="What is 3 + 1?" type="text" id="antwoordform" onChange={restrictToNumbers} />
+              <h2>Anti-bot question: What is 3 + 1?</h2>
+              <input type="text" id="antwoordform" onChange={restrictToNumbers} />
             </section>
 
             <input className="wpcf7-form-control wpcf7-submit has-spinner sendformbtn" onClick={sendForm} type="submit" value="Send" />

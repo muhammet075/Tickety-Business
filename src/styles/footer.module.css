@@ -1,6 +1,6 @@
 .footer{
     width: 100%;
-    margin: 300px auto 35px auto;
+    margin: 150px auto 35px auto;
 }
 
 .footer > div{
@@ -57,21 +57,20 @@
 }
 
 .footer > div section:nth-of-type(2) > div > div:first-child a img{
-    width: 150px;
+    width: 100px;
     height: auto;
 }
 
 .footer > div section:nth-of-type(2) > div > div:first-child ul{
     display: flex;
-    justify-content: center;
     align-items: center;
     list-style: none;
-    gap: 25px;
+    gap: 20px;
 }
 
 .footer > div section:nth-of-type(2) > div > div:first-child ul li a img{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 
 .footer > div section:nth-of-type(2) > div > div h3{

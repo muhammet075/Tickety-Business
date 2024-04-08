@@ -5,6 +5,7 @@ import styles from "../styles/header.module.css";
 import Logo from "@/assets/logo/tickety-logo.svg";
 import menuIco from "@/assets/icons/blue-menu.svg";
 import closeIco from "@/assets/icons/blue-close.svg";
+import homeIco from "@/assets/icons/home.svg";
 
 function Header() {
 
@@ -27,6 +28,7 @@ function Header() {
 
                 <nav id="hamburgermenu">
                     <ul>
+                        <li><Link href="/" onClick={closehamburger}><Image src={homeIco} alt="Homepage icon"/></Link></li>
                         <li><Link href="/order-tickets" onClick={closehamburger}>Order Tickets</Link></li>
                         <li><Link href="/tickety-app" onClick={closehamburger}>Tickety App</Link></li>
                         <li><Link href="/#about" onClick={closehamburger}>About</Link></li>
