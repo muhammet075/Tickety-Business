@@ -15,7 +15,7 @@ function Footer() {
         <section>
             <h2>Download the <span>Tickety</span> app now!</h2>
             <p>With a user-friendly interface and advanced features, managing your event tickets has never been easier.</p>
-            <Link href="/tickety-app"><Image src={appStoreButton} alt="Download on the App Store Button" data-aos="fade-up"/></Link>
+            <Link href="/tickety-app"><Image src={appStoreButton} alt="Download on the App Store Button"/></Link>
         </section>
         
         <section>
