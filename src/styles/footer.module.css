@@ -63,10 +63,10 @@
 
 .footer > div section:nth-of-type(2) > div > div:first-child ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     list-style: none;
-    margin-top: 25px;
+    gap: 25px;
 }
 
 .footer > div section:nth-of-type(2) > div > div:first-child ul li a img{

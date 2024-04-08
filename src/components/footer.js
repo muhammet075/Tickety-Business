@@ -23,10 +23,10 @@ function Footer() {
                 <div>
                     <Link href="/"><Image src={Logo} alt="Logo of Tickety"/></Link>
                     <ul>
-                        <li><Link href="/"><Image src={instagramIco} alt="Instagram Logo"/></Link></li>
-                        <li><Link href="/"><Image src={linkedinIco} alt="Linkedin Logo"/></Link></li>
-                        <li><Link href="/"><Image src={facebookIco} alt="Facebook Logo"/></Link></li>
-                        <li><Link href="/"><Image src={twitterIco} alt="Twitter Logo"/></Link></li>
+                        <li><Link target="_blank" href="https://www.instagram.com/ticketytickets"><Image src={instagramIco} alt="Instagram Logo"/></Link></li>
+                        <li><Link target="_blank" href="https://www.linkedin.com/company/tickety2023"><Image src={linkedinIco} alt="Linkedin Logo"/></Link></li>
+                        {/* <li><Link href="/"><Image src={facebookIco} alt="Facebook Logo"/></Link></li> */}
+                        {/* <li><Link href="/"><Image src={twitterIco} alt="Twitter Logo"/></Link></li> */}
                     </ul>
                 </div>
 
