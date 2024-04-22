@@ -129,6 +129,7 @@ button{
 .pagecontent > div{
   max-width: 1200px;
   margin: 50px auto;
+  padding: 0 15px;
 }
 
 .pagecontent > div > section{
@@ -145,7 +146,7 @@ button{
 }
 
 .pagecontent > div > .orderform{
-  margin: 25px 15px;
+  margin: 25px 0;
   max-width: 1200px;
   padding: 15px;
   border-radius: 5px;
@@ -176,6 +177,7 @@ button{
   color: #000000;
   margin-right: 15px;
   margin-left: 2px;
+  cursor: pointer;
 }
 
 .pagecontent > div > .orderform section input[type=text],.pagecontent > div > .orderform section input[type=email],.pagecontent > div > .orderform section input[type=tel],.pagecontent > div > .orderform section textarea{
