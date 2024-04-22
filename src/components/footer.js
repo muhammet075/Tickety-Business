@@ -63,7 +63,7 @@ function Footer() {
         </section>
 
         <section>
-            <p>© 2023 Tickety. All rights reserved.</p>
+            <p>© 2024 Tickety. All rights reserved.</p>
             <div>
                 <Link href="/privacy-policy">Privacy Policy</Link>
                 <Link href="/cookie-policy">Cookie Policy</Link>
